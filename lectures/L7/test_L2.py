@@ -1,10 +1,10 @@
 import L2
 
 def test_L2_result_1():
-    assert L2.L2([4, 3], [1, 1]) == 5.
+    assert L2.L2([4, 3], [1, 1]) == 5
 
 def test_L2_result_2():
-    assert L2.L2([5., 12.]) == 13.
+    assert L2.L2([5., 12.]) == 13
 
 def test_L2_sameLength():
     try:

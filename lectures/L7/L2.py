@@ -12,7 +12,7 @@ def L2(v, *args):
     
     RETURNS
     ========
-    L2 norm: float
+    the L2 norm: float
        Weighted L2 norm of the vector using the weight values specified by *args
        A value exception is raised when the vector and the weights have different length
 
@@ -29,7 +29,9 @@ def L2(v, *args):
     EXAMPLES
     =========
     >>> L2([4, 3], [1, 1])
-    5
+    5.0
+    >>> L2([40, 30], [1, 1])
+    50.0
     """
     s = 0.0 # Initialize sum
     if len(args) == 0: # No weight vector
