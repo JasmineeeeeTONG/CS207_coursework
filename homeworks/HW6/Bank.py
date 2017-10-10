@@ -1,4 +1,3 @@
-import sys
 from enum import Enum
 
 class AccountType(Enum):
@@ -127,7 +126,7 @@ def ATMSession(bankUser):
         
         if option == '1':
             print('=> Exiting ATMSession...')
-            sys.exit()
+            return
         
         # Option 2, 3, 4, 5
         account_option = input('Enter option: \n1)Checking \n2)Savings \n')
