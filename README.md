@@ -1,1 +1,5 @@
-# CS207 Course Repository for Jiawen Tong
+# CS207 2017 Fall
+---
+Course Repository:
+- Homeworks
+- Lecture Notes and Exercises
